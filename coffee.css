@@ -1,0 +1,166 @@
+body{
+    background-color: black;
+}
+.nav{
+    background-color: black;
+}
+li{
+    list-style-type: none;
+    color: white;
+    display: inline;
+    padding: 0px 10px;
+    
+ 
+}
+nav{
+    position:relative;
+    left: 30%;
+    display: inline;
+    
+    
+}
+a{
+    text-decoration: none;
+}
+ul{
+    display: inline-block;
+
+}
+.menu{
+    
+    display:inline-block;
+    margin: 0px auto;
+
+}
+h1{
+    color: white;
+}
+header{
+    margin-top: 10px;
+    position:fixed;
+}
+li:hover{
+    color: rgb(237, 193, 99);
+}
+.logo{
+    width: 50px;
+    display: inline-block;
+    margin-top:10px ;
+    float:left;
+}
+.Home{
+    background-image:url('./Design/home-img.jpeg');
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+}
+.Homesec{
+    display: inline-block;
+    position: relative;
+    left: 10vw;
+    top: 25vh;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    width: 20%;
+}
+button{
+    background-color:rgb(237, 193, 99);
+    color: white;
+    padding:5px 18px;
+    animation-timing-function: ease-in;
+    cursor: pointer;
+    animation-timing-function: ease-in-out;
+}
+button:hover{
+    background-color:rgba(237, 193, 99, 0.777);; 
+    
+}
+.aboutus{
+    color: rgb(237, 193, 99);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:40px;
+    display: inline;
+}
+h1:nth-of-type(2){
+    display: inline;
+    font-size: 40px;
+    columns: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.headT{
+    display: inline-flex;
+    
+    
+}
+#about2{
+    background-color: rgb(17, 17, 26);
+    height:50vh ;
+    margin:25px 200px;
+    display: flex;
+}
+#aboutimg{
+    height: 50vh;
+    width: 30vw;
+    display: inline-block;
+}
+.about3{
+    display: flexbox;
+    color: white;
+    margin-left: 10px;
+    margin-top: 30px;
+    overflow: hidden;
+   
+
+}
+.abouttext{
+    color: rgb(147, 144, 144);
+    display: inline-block;
+}
+.div1{
+    margin: 20px 60px;
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+.divIN{
+   
+    height: 18vh;
+    width: 12vw;
+    padding: 6%;
+    border: solid rgba(255, 255, 255, 0.104) 1px ;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.divIN:hover{
+    background-color: white;
+    color: black ;
+    transition-duration: 0.6s;
+}
+
+.product2{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin: 20px 40px;
+}
+.product1{
+    height: 40vh;
+    width: 20vw;
+    display:inline;
+    position: relative;
+    top: 20%;
+    left: 20px;
+    justify-content: last baseline;
+    border: solid rgba(255, 255, 255, 0.104) 1px;
+    color: white;
+    
+}
+
+
